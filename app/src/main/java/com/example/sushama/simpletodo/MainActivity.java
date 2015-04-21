@@ -141,7 +141,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onAddItem(View view) {
+    public void addNewitem(View view) {
         String etNewItemString = etNewItem.getText().toString();
 
         if(!etNewItemString.isEmpty()) {
